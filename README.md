@@ -1,7 +1,6 @@
 # Capstone-Project-Bangkit
-==
 # What's the Food
---
+
 # What's the Food Team
 - Machine Learning
 1. M2004F0317- Bill Harit Yaů - ITS
