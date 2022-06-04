@@ -1,26 +1,25 @@
-# Paddy Leaf Disease Detection
-Bangkit's Capstone Project : Paddy Leaf Disease Detection
-## Paddy Leaf Disease Detection Team
-* Machine Learning Path
-	* Syachrul Qolbi Nur Septi https://www.linkedin.com/in/syachrulqolbi/
-	* Fadhilah Nur Rismayana https://www.linkedin.com/in/fadhilah-nur-rismayana/
-* Mobile Development
-	* Selvia Indriani https://www.linkedin.com/in/selviaindriani/
-	* Muhammad Rifki https://www.linkedin.com/in/muhammad-rifki/
-* Cloud Computing
-    * Gustiana Nurhadi https://www.linkedin.com/in/gustiana-nurhadi-231aa8121/
-	* Angga Dwi Satria https://www.linkedin.com/in/anggadwisatria/
+# Capstone-Project-Bangkit
 
-## Steps to Configure Architecture and Deployment Model with Flask 
-* A. Create 2 buckets in cloud storage for GET and POSH processes resulting from the detection process
-* B. 
-   *  1. Create a virtual machine on the GCP compute engine with Deep Learning for Linux Tensorflow 2.2 image
-   *  2. Install libraries in virtual machines such as
-      a. tensorflow==2.2.0
-      b. h5py==2.10.0
-      c. numpy==1.19.5
-      d. flask==2.0.1
-      e. tensorflow-hub==0.12.0
-   *  3. main.py Scripting Process
-   *  4. Run main.py with the command sudo python3 main.py& (on linux)
-   *  5. The flash is running and the API has been obtained according to the External IP on the compute engine
+# What's the Food
+
+# What's the Food Team
+
+- Machine Learning
+	1. M2004F0317- Bill Harit Yaů - ITS
+	2. M2004F0342 - Gede Yoga Arisudana - ITS
+- Cloud Computing
+	1. C2268F2308 - Falah Yudhistira Hanan - Universitas Muhammadiyah SurakaŶa
+	2. C2007F0722 - Odi Elsamas - Universitas Dian Nuswantoro
+- Mobile Development Android
+	1. C2268F2308 - Falah Yudhistira Hanan - Universitas Muhammadiyah SurakaŶa
+	2. C2007F0722 - Odi Elsamas - Universitas Dian Nuswantoro
+	
+# Resource and steps to build architecture deployment with Flask in the Cloud
+- Cloud Storage
+	1. Creating 2 Bucket to save the model and save images from response and request users.
+- Compute Engine
+	1. Creating Compute Engine in Google Cloud Platform with Deep Learning Tensorflow 2.2 images.
+	2. Install the libraries in virtual machines such as a. tensorflow==2.2.0 b. h5py==2.10.0 c. numpy==1.19.5 d. flask==2.0.1 e. tensorflow-hub==0.12.0
+	3. app.py Scripting Process
+	4. Run app.py with the command sudo python3 main.py& (on linux)
+	5. Flask is running and API is retrieved with external IP on Compute Engine
